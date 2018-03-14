@@ -22,6 +22,6 @@ workflows:
          filters:
            branches:
              only:
-               - wip-test
+               - cron
     jobs:
       - build
